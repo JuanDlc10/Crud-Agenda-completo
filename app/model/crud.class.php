@@ -3,8 +3,8 @@
     class Crud{
         private $conexion;
         private $host = "localhost";
-        private $user = "root";
-        private $pass = "";
+        private $user = "juan";
+        private $pass = "juan1018";
         private $bd = "agenda";
 
         public function __construct() {

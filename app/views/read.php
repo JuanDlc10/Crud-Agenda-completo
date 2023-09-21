@@ -3,6 +3,7 @@
         <div class="col">
             <a href="./create" class="btn btn-outline-primary mt-5" >Agregar</a>
             <a href="./createRol" class="btn btn-outline-primary mt-5" > Agregar Rol</a>
+            <a href="./logOut" class="btn btn-outline-primary mt-5" >Terminar session</a>
             <h1 class="mt-4 text-center" >Agenda</h1>
             <hr>
             <table class="table text-center table-secundary table-striped table-bordered table-sm table-hover table-responsive" >
@@ -41,5 +42,6 @@
 </div>
 
 <?php
-    require "./app/controller/delete.controller.php"
+    require "./app/controller/delete.controller.php";
 ?>
+

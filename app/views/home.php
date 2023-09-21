@@ -3,7 +3,12 @@
         <div class="row">
             <h1 class="display-1">Crud</h1>
             <p class="fs-4" >Este sistema te permitira realizar las tareas clasicas de un CRUD utilizando PHP</p>
-            <a href="./read" class="btn btn-primary">Acceder al CRUD</a>
+            <button class="btn btn-outline-primary" id="session" >iniciar</button>
         </div>
     </div>
 </div>
+
+
+<?php
+    require "./app/controller/session.controller.php"
+?>
