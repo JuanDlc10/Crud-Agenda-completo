@@ -17,7 +17,7 @@
                     break;
                 case 'read':
                     if (isset($_SESSION["id_user"])){
-                    $contactos = $crud -> read();
+                    $contactos = $crud -> read($_SESSION["id_user"]);
                     include "./app/views/read.php";
                 }else{
                     header('location: ./home');
@@ -61,6 +61,10 @@
                     }else{
                         header('location: ./home');
                     }
+                    break;
+                case 'sigIn';
+                    include "./app/views/register.php";
+                    break;
                 default:
                 header('Location: ./read');
                     break;

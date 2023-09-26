@@ -1,9 +1,11 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <a href="./create" class="btn btn-outline-primary mt-5" >Agregar</a>
-            <a href="./createRol" class="btn btn-outline-primary mt-5" > Agregar Rol</a>
-            <a href="./logOut" class="btn btn-outline-primary mt-5" >Terminar session</a>
+            <div class="d-flex justify-content-between" >
+                <a href="./create" class="btn btn-outline-primary mt-5" >Agregar</a>
+                <a href="./createRol" class="btn btn-outline-primary mt-5" > Agregar Rol</a>
+                <a href="./logOut" class="btn btn-outline-danger mt-5 text-rigth" >Terminar session</a>
+            </div>
             <h1 class="mt-4 text-center" >Agenda</h1>
             <hr>
             <table class="table text-center table-secundary table-striped table-bordered table-sm table-hover table-responsive" >
